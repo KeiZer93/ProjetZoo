@@ -1,4 +1,5 @@
 package zoo;
+import zoo.Animal;
 
 public class Serpent extends Animal {
 

@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c12eeede-947a-4e2b-961b-7032968974d5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Zoo/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zoo/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Zoo/Lion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zoo/Lion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Zoo/Oiseau.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zoo/Oiseau.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Zoo/Serpent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zoo/Serpent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appli/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/appli/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zoo/Soigneur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zoo/Soigneur.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,21 +31,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/BENSAID_Me/IdeaProjects/Zooo_project/src/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Application.executor": "Run",
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/BENSAID_Me/IdeaProjects/Zooo_project/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -64,6 +66,7 @@
       <workItem from="1739263610422" duration="1000" />
       <workItem from="1740503114486" duration="12710000" />
       <workItem from="1741040909713" duration="4332000" />
+      <workItem from="1741074785825" duration="4075000" />
     </task>
     <servers />
   </component>
