@@ -59,8 +59,21 @@ public class Application {
         Animal animal3 = new Oiseau ();
         animal3.tomberMalade();
 
+
         Veterinaire veterinaire = new Veterinaire();
         veterinaire.soigner();
+        System.out.println("-------------------------------");
+        System.out.println("\n=== Enclos ===");
+
+        Enclos enclos1 = new Enclos(1, 3);
+        enclos1.ajouterAnimal(animal);
+        enclos1.ajouterAnimal(animal2);
+        enclos1.ajouterAnimal(animal3);
+        enclos1.degradations();
+        enclos1.afficherInfos();
+
+        enclos1.nettoyerEnclos();
+        enclos1.afficherInfos();
 
 
 
