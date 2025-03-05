@@ -4,7 +4,7 @@ import zoo.Animal;
 public class Serpent extends Animal {
 
     public Serpent() {
-        super("Serpents", Integer.parseInt("4"),"a definir");
+        super("Serpents", Integer.parseInt("4"),false);
     }
 
     @Override

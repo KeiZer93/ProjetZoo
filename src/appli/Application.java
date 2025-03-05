@@ -1,8 +1,5 @@
 package appli;
-import zoo.Lion;
-import zoo.Oiseau;
-import zoo.Serpent;
-import zoo.Soigneur;
+import zoo.*;
 
 
 public class Application {
@@ -15,6 +12,7 @@ public class Application {
         s.faireDuBruit();
         s.manger();
         s.seDeplacer();
+        s.setSante(true);
 
         System.out.println("-------------------------------");
 
@@ -24,6 +22,7 @@ public class Application {
         l.faireDuBruit();
         l.manger();
         l.seDeplacer();
+        l.setSante(true);
 
         System.out.println("-------------------------------");
 
@@ -34,14 +33,22 @@ public class Application {
         o.manger();
         o.seDeplacer();
 
-        System.out.println("\n=== Soigneurs ===");
-        Soigneur soigneur1 = new Soigneur("jack", " du Lion");
-        Soigneur soigneur2 = new Soigneur("Louis", " du Serpent");
-        Soigneur soigneur3 = new Soigneur("jade", " de l'Oiseau");
+        o.setSante(true);
 
-        soigneur1.afficheInfo();
-        soigneur2.afficheInfo();
-        soigneur3.afficheInfo();
+        System.out.println("-------------------------------");
+
+        System.out.println("\n=== Soigneur ===");
+        Soigneur soigneur = new Veterinaire();
+        soigneur.afficherInfoSoigneur();
+
+
+
+        System.out.println("-------------------------------");
+
+        System.out.println("\n=== veterinaire ===");
+        Veterinaire v = new Veterinaire();
+        v.afficheInfoVeterinaire();
+
+
     }
 }
-

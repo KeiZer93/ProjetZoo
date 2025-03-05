@@ -4,12 +4,12 @@ public abstract class Animal {
 
     protected String name;
     protected int age;
-    protected String sante;
+    protected Boolean sante;
 
-    public Animal(String name, int age, String sante) {
+    public Animal(String name, int age, Boolean sante) {
         this.name = name;
         this.age = age;
-        this.sante = sante;
+        this.sante = (Math.random() < 0.5);
 
     }
 
@@ -29,11 +29,11 @@ public abstract class Animal {
         this.age = age;
     }
 
-    public String getSante() {
+    public Boolean Sante() {
         return sante;
     }
 
-    public void setSante(String sante) {
+    public void setSante(Boolean sante) {
         this.sante = sante;
     }
 
@@ -43,11 +43,21 @@ public abstract class Animal {
 
     }
 
+    public void tomberMalade() {
+        if (Math.random() < 0.5) {  // Chance de 50% de tomber malade
+            this.sante = true;
+            System.out.println(name + " est tombé malade !");
+        } else {
+            this.sante = false;
+            System.out.println(name + " est en bonne santé.");
+        }
+    }
+
     public abstract void faireDuBruit();
 
     public abstract void seDeplacer();
 
     public abstract void manger();
+
+
 }
-
-
