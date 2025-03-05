@@ -16,6 +16,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -48,6 +49,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="zoo" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="appli.Application" />
@@ -89,7 +95,7 @@
       <workItem from="1741040909713" duration="8735000" />
       <workItem from="1741124763119" duration="482000" />
       <workItem from="1741125296252" duration="2000" />
-      <workItem from="1741193449376" duration="14152000" />
+      <workItem from="1741193449376" duration="18593000" />
     </task>
     <servers />
   </component>

@@ -67,13 +67,54 @@ public class Application {
 
         Enclos enclos1 = new Enclos(1, 3);
         enclos1.ajouterAnimal(animal);
-        enclos1.ajouterAnimal(animal2);
-        enclos1.ajouterAnimal(animal3);
+
         enclos1.degradations();
         enclos1.afficherInfos();
 
         enclos1.nettoyerEnclos();
         enclos1.afficherInfos();
+
+        Enclos enclos2 = new Enclos(2, 4);
+        enclos2.ajouterAnimal(animal2);
+
+        enclos2.degradations();
+        enclos2.afficherInfos();
+
+        enclos2.nettoyerEnclos();
+        enclos2.afficherInfos();
+
+        Enclos enclos3 = new Enclos(3, 5);
+        enclos3.ajouterAnimal(animal3);
+
+        enclos3.degradations();
+        enclos3.afficherInfos();
+
+        enclos3.nettoyerEnclos();
+        enclos3.afficherInfos();
+
+        System.out.println("-------------------------------");
+
+        System.out.println("\n=== Visiteurs ===");
+        Client visiteur1 = new Client("Alice", 25, 50);
+        Client visiteur2 = new Client(" youssef ", 8, 5);
+        System.out.println(visiteur1);
+        System.out.println(visiteur2);
+
+
+        visiteur1.payerBillet(20);
+        visiteur2.payerBillet(10);
+
+
+        System.out.println("-------------------------------");
+
+        System.out.println("\n=== Spectacle ===");
+        Spectacle spectacle = new Spectacle("Le Spectacle des Lions", soigneur, "15h00", 10);
+
+        spectacle.demarrerSpectacle();
+
+
+
+
 
 
 
