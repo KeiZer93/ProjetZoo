@@ -12,7 +12,7 @@ public class Application {
         s.faireDuBruit();
         s.manger();
         s.seDeplacer();
-        s.setSante(true);
+        s.setMalade(true);
 
         System.out.println("-------------------------------");
 
@@ -22,7 +22,7 @@ public class Application {
         l.faireDuBruit();
         l.manger();
         l.seDeplacer();
-        l.setSante(true);
+        l.setMalade(true);
 
         System.out.println("-------------------------------");
 
@@ -33,7 +33,7 @@ public class Application {
         o.manger();
         o.seDeplacer();
 
-        o.setSante(true);
+        o.setMalade(true);
 
         System.out.println("-------------------------------");
 
@@ -48,6 +48,24 @@ public class Application {
         System.out.println("\n=== veterinaire ===");
         Veterinaire v = new Veterinaire();
         v.afficheInfoVeterinaire();
+
+        System.out.println("-------------------------------");
+
+        System.out.println("\n=== Maladie ===");
+        Animal animal = new Lion ();
+        animal.tomberMalade();
+        Animal animal2 = new Serpent ();
+        animal2.tomberMalade();
+        Animal animal3 = new Oiseau ();
+        animal3.tomberMalade();
+
+        Veterinaire veterinaire = new Veterinaire();
+        veterinaire.soigner();
+
+
+
+
+
 
 
     }

@@ -22,4 +22,15 @@ System.out.println("bruit : l'" +getName()+  " fait cui cui ");
         System.out.println("manger : l'" +getName()+  " mange des ver ");
 
     }
+
+    @Override
+    public void tomberMalade() {
+        if (Math.random() < 0.5) {  // Chance de 50% de tomber malade
+            this.malade = true;
+            System.out.println(name + " est tombé malade !");
+        } else {
+            this.malade = false;
+            System.out.println(name + " est en bonne santé.");
+        }
+    }
 }
