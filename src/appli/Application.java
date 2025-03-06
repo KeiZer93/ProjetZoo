@@ -112,15 +112,17 @@ public class Application {
 
         spectacle.demarrerSpectacle();
 
+        System.out.println("-------------------------------");
+        System.out.println("\n=== tarrif et rentabilité ===");
+
+        Zoo z =new Zoo("la jungle",5000);
+        z.enregistrerVisiteur(100, 10);
+
+        z.calculerRevenu();
 
 
 
 
-
-
-
-
-
-
+        z.afficherInfos();
     }
-}
+    }
